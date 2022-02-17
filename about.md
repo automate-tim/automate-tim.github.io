@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I'm a security researcher, purple teaming advocate, and adversary emulation lead. Focusing on automation and data driven security testing.
 
-email: agus[at]python.web.id
+twitter: @teschulz

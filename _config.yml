@@ -1,9 +1,9 @@
-title: Stack Problems
+title: Scaling Expertise
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+author: Tim Schulz
+github: https://github.com/automate-tim
+about: I'm a security researcher and purple team advocate. Focusing on automation and data driven security testing.
+disqus_shortname: scalingexpertise
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -18,16 +18,16 @@ social:
     - icon: fa-facebook
       link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/teschulz"
     - icon: fa-linkedin
       link: "#"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/automate-tim"
 
 share:
-  twitter_username: github.io
+  twitter_username: teschulz
   fb_appid: 1749788565247320
 
 urls:
@@ -38,7 +38,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://automate-tim.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
