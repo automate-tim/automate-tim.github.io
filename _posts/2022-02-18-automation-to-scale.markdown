@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automation for Consistency and Scale"
-date:   2022-02-17 00:18:23 +0700
+date:   2022-02-18 10:18:23 +0700
 categories: [security]
 ---
 Automation is a great way to test reliability in what you are doing, and to help ensure that your process is repeatable.
@@ -15,14 +15,14 @@ There are a lot of reasons to automate, however three reasons that often prompt 
 ## Example
 Part of automating is building tools to help your workflow through increased consistency and potentially also when troubleshooting!
 
-One of the newest SCYTHE features is easier shellcode availability for customers. I wanted to build some examples of using this new feature for customers to leverage that may not already be familiar with shellcode. There is a ton of great blogs on leveraging shellcode from tools like Metasploit, including the ired.team blog here: https://www.ired.team/offensive-security/code-execution/using-msbuild-to-execute-shellcode-in-c
+One of the newest SCYTHE features is easier shellcode availability for customers. I wanted to build some examples of using this new feature for customers to leverage that may not already be familiar with shellcode. There is a ton of great blogs on leveraging shellcode from tools like Metasploit, including the ired.team blog [here](https://www.ired.team/offensive-security/code-execution/using-msbuild-to-execute-shellcode-in-c).
 
-That blog highlights using the MSBuild (MITRE ATT&CK Sub-Technique T1127.001)[https://attack.mitre.org/techniques/T1127/001/] leveraged by adversaries to execute code. After walking through that blog post, I got tired of copy + pasting as I was testing shellcode so I wrote a script to do part of the job for me.
+That blog highlights using the MSBuild [MITRE ATT&CK Sub-Technique T1127.001](https://attack.mitre.org/techniques/T1127/001/) leveraged by adversaries to execute code. After walking through that blog post, I wanted to automate that process so I wrote a script to do part of the job for me.
 
 I found that there were a few items that changed for me between executions that automating helped me troubleshoot faster:
-+ <em>Escape characters</em> - 
++ <em>Escape characters</em> - This is a writing out characters with Python issue, but making sure to add an extra '\\' to escape certain characters is necessary
 + <em>32 vs 64 bit shellcode</em> - This is a major difference that not only requires changes to the XML document generated, but also leverages another 64 bit loader for execution afterward
-+ <em>Python vs PowerShell for base64 encoding</em> - 
++ <em>Python vs PowerShell for base64 encoding</em> - Some of the possible ways to output base64 encoded characters in Python do not work for decoding and executing in PowerShell, so making sure these encodings match up is important!
 
 {% highlight python %}
 # MSBuild Item Generator
