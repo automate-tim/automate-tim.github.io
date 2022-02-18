@@ -1,17 +1,26 @@
 [
 	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
+		"slug": "community-threats",
+		"name": "Open Source Threat Emulation Plans",
 		"image": "placeholder.jpg",
-		"url": "https://www.google.com",
-		"date": "Jan 2014",
-		"tags": ["security","API"]
+		"url": "https://github.com/scythe-io/community-threats",
+		"date": "Feb 2022",
+		"tags": ["security","adversary emulation"]
 	},
 	{
-		"name": "Cool project 2",
+		"slug": "compound-actions",
+		"name": "Multi-Step MITRE ATT&CK Actions",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Python","Django"]
+		"url": "https://github.com/scythe-io/compound-actions",
+		"date": "Feb 2022",
+		"tags": ["security"]
+	},
+	{
+		"slug": "conference-talks",
+		"name": "My conference presentations",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/automate-tim/conference-materials",
+		"date": "Feb 2022",
+		"tags": ["security", "talks"]
 	}
 ]

@@ -1,5 +1,5 @@
 title: Scaling Expertise
-description: My Personal Stack Problems
+description: Automation of Security Challenges
 author: Tim Schulz
 github: https://github.com/automate-tim
 about: I'm a security researcher and purple team advocate. Focusing on automation and data driven security testing.
@@ -15,20 +15,15 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
     - icon: fa-twitter
       link: "https://twitter.com/teschulz"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/tim-schulz/"
     - icon: fa-github
       link: "https://github.com/automate-tim"
 
 share:
   twitter_username: teschulz
-  fb_appid: 1749788565247320
 
 urls:
     - text: About Me
@@ -44,7 +39,7 @@ paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
 
